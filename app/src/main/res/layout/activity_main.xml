@@ -15,7 +15,7 @@
 
     <RelativeLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_row="0"
         android:layout_rowWeight="1"
         android:layout_column="1"
@@ -33,8 +33,8 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_row="1"
         android:layout_rowWeight="1"
         android:layout_column="0"
@@ -76,13 +76,13 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_row="0"
         android:layout_rowWeight="1"
         android:layout_column="0"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal|center"
+        android:gravity="center"
         android:orientation="horizontal"
         android:weightSum="1">
 
@@ -91,7 +91,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.33333334"
-            android:gravity="fill_horizontal|center"
+            android:gravity="center"
             android:text="0"
             android:textColor="#ff0000"
             android:textSize="24sp" />
@@ -101,6 +101,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.33333334"
+            android:gravity="center"
             android:text="0"
             android:textColor="#ff0000"
             android:textSize="24sp" />
@@ -110,14 +111,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.33333334"
+            android:gravity="center"
             android:text="0"
             android:textColor="#ff0000"
             android:textSize="24sp" />
     </LinearLayout>
 
     <android.support.constraint.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_row="1"
         android:layout_rowWeight="1"
         android:layout_column="1"
